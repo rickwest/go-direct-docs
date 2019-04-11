@@ -79,7 +79,7 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {
+html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'rickwest',
     'github_repo': 'shuut',
