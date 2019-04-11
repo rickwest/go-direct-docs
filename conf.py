@@ -80,7 +80,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'logo': './logo.png',
+    'logo': 'logo.png',
     'github_user': 'rickwest',
     'github_repo': 'shuut',
     'description': 'A simple Courier Management System that helps to ease the management of vehicles, drivers, quoting, jobs and invoicing for courier firms.',
