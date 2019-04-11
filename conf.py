@@ -83,7 +83,7 @@ html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'rickwest',
     'github_repo': 'shuut',
-    'description': 'A simple Courier Management System that helps to ease the management of vehicles, drivers, quoting, jobs and invoicing for courier firms.'
+    'description': 'A simple Courier Management System that helps to ease the management of vehicles, drivers, quoting, jobs and invoicing for courier firms.',
     'github_banner': true
 }
 
@@ -133,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'GoDirect.tex', 'Go Direct Documentation',
+    (master_doc, 'Shuut.tex', 'Shuut Documentation',
      'Rick West', 'manual'),
 ]
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'godirect', 'Go Direct Documentation',
+    (master_doc, 'godirect', 'Shuut Documentation',
      [author], 1)
 ]
 
@@ -154,7 +154,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GoDirect', 'Go Direct Documentation',
+    (master_doc, 'GoDirect', 'Shuut Documentation',
      author, 'GoDirect', 'One line description of project.',
      'Miscellaneous'),
 ]
