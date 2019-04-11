@@ -84,7 +84,8 @@ html_theme_options = {
     'github_user': 'rickwest',
     'github_repo': 'shuut',
     'description': 'A simple Courier Management System that helps to ease the management of vehicles, drivers, quoting, jobs and invoicing for courier firms.',
-    'github_banner': true
+    'github_banner': 'true',
+    'github_button': 'true'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
