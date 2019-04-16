@@ -31,19 +31,31 @@ Then install the dependencies:
 composer install
 ```
 
-#### Install JavaScript dependencies
+#### Install JavaScript dependencies and build the assets
 Followed by the installation of the javascript dependencies:
 
 ```bash
 yarn install
 ```
 
+You can then build the projects assets:
+```bash
+yarn run encore dev
+```
+
+
 #### Configure a database
 Next, you need to configure and create a database. 
 
-Open the `.env` file and find the line `DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name`. Replace this with your own database credentials or alternatively, for an SQLite database, use: `sqlite:///%kernel.project_dir%/var/data.db`
+Open the `.env` file and find the line `DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name`. 
 
-Whilst in `.env` you should also add your Google Maps Api key, by adding the line:
+Replace this with your own database credentials or alternatively, for an SQLite database, use: 
+
+```text
+DATABASE_URL=sqlite:///%kernel.project_dir%/var/data.db
+```
+
+**Whilst in `.env` you should also add your Google Maps Api key, by adding the line:**
 
 ```text
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
@@ -75,13 +87,13 @@ bin/console doctrine:fixtures:load
 As well as populating the database with demo data, the fixtures command also creates a user.
 Log in to the system wih these credentials:
 
-username: admin
+**username: admin**
 
-password: 20E!xI&$Zx
+**password: 20E!xI&$Zx**
 
 ### Usage
 
-If you've got this far then you should be all set and ready to run the application. You can [configure a web server][https://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html] like Nginx or Apache
+If you've got this far then you should be all set and ready to run the application. You can [configure a web server](https://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html) like Nginx or Apache
 but the easiest thing to do in development is simply run PHP's built in web server:
 
  ```bash
@@ -90,3 +102,5 @@ but the easiest thing to do in development is simply run PHP's built in web serv
 
 This should enable you to access <http://localhost:8000> in your browser. Navigate to `http://127.0.0.1:8000/login` and sign in with the credentials above.
 
+### Support
+If you need some help or want to ask anything just drop me an [email](mailto:thepyfiles@gmail.com).
