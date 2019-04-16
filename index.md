@@ -103,4 +103,4 @@ but the easiest thing to do in development is simply run PHP's built in web serv
 This should enable you to access <http://localhost:8000> in your browser. Navigate to `http://127.0.0.1:8000/login` and sign in with the credentials above.
 
 ### Support
-If you need some help or want to ask anything just drop me an [email](mailto:thepyfiles@gmail.com).
+If you need some help or want to ask anything just drop me an [email](mailto:b7042643@my.shu.ac.uk).
