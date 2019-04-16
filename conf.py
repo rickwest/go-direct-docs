@@ -83,7 +83,7 @@ html_theme_options = {
     'logo': 'logo.png',
     'github_user': 'rickwest',
     'github_repo': 'shuut',
-    'description': 'A simple Courier Management System that helps to ease the management of vehicles, drivers, quoting, jobs and invoicing for courier firms.',
+    'description': 'A simple courier management system.',
     'github_banner': 'true',
     'github_button': 'true'
 }
